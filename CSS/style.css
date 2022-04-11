@@ -1,0 +1,403 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-white{
+    color: #fff !important;
+}
+#header{
+    height: 46px;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+#nav{
+    display: inline-block;
+    padding-left: 0px;
+}
+#nav li {
+    display:inline-block;
+    position: relative;
+   
+}
+
+#nav li a{
+    color:  white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+  
+}
+#nav>li>a{
+    text-transform: uppercase;
+}
+#nav>li:hover>a{
+    color: #000;
+    background: #ccc;
+   display: block;
+ 
+}
+#nav li:hover .subnav{
+    display: block;
+}
+ #nav .subnav {
+   display: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0 0 10px #000
+   
+}
+.subnav li:hover a{
+background: #ccc;
+display: block;
+}
+.subnav li {
+    width: 100%;
+   
+}
+#nav .subnav a{
+  color: #000;
+  line-height: 38px;
+}
+#nav .font-arrow{
+font-size: 14px;
+}
+#header .Menu-btn{
+    float: right;
+    color: white;
+    line-height: 46px;
+    padding: 0 16px;
+    position: absolute;
+top: 0;
+right: 0;
+display: none;
+}
+#header .Search-btn,.Menu-btn{
+    float: right;
+    color: white;
+    line-height: 46px;
+    padding: 0 16px;
+  ;
+  
+    
+}
+#header .Menu-btn:hover .menu-icon{
+    color: #000;
+}
+#header .Menu-btn:hover{
+    background: gray
+}
+
+#header .Search-btn:hover{
+    background: red;
+    cursor: pointer;
+}
+#Slider{
+padding-top: 50%;
+margin-top: 46px;
+background:url('../img/Slider/Slider1.jpg') top center / cover no-repeat;
+position: relative;
+}
+
+#Slider .text-content
+{
+    position: absolute;
+    color: #fff;
+    bottom: 68px;
+    width: 100%;
+    text-align: center;
+    
+
+}
+#Slider .text-aline
+{
+font-weight: normal;
+font-size: 24px;
+padding-bottom: 10px;
+}
+#Slider .text-center
+{
+    font-size: 15px;
+    padding-top: 10px;
+    text-shadow: 1px 1px #000;
+}
+
+
+
+
+#content .content-section
+{
+width: 800px;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+padding-left: 16px;
+padding-right: 16px;
+}
+#content .section-helding
+{
+text-align: center;
+margin-top: 40px;
+font-size: 30px;
+letter-spacing: 4px;
+font-weight: 500;
+padding-top: 50px;
+}
+#content .section-sub-helding
+{
+margin: 15px 0;
+text-align: center;
+font-size: 20px;
+color: gray;
+}
+#content .section-about
+{
+margin-top: 12px;
+text-align: justify;
+font-size: 20px;
+line-height: 1.4;
+}
+#content .member-list
+{
+margin-top: 40px;
+
+}
+#content .member-item
+{
+     float: right;
+     width: 33.3333333%;
+     text-align: center;
+     
+}
+#content .member-name
+{
+ font-size: 15px;
+ 
+}
+#content .member-img{
+ margin-top: 15px;
+width: 154px;
+border-radius: 4px;
+}
+.clear{
+clear: both;
+}
+/*Tour */
+.Tour-section
+{
+   height: 800px;
+    background:#000;
+}
+/* ticket */
+.ticket-lick{
+background: #fff;
+padding-left: 5px;
+list-style: none;
+}
+.ticket-lick .Sold-out{
+    margin-left: 10px;
+    background: rgb(231, 9, 9);
+    padding: 2px 4px;
+}
+.Tour-section li{
+   padding: 8px 16px;
+   border-bottom: solid 1px #ddd;
+   color: gray;
+}
+.ticket-lick .quality{
+    float: right;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -2px;
+}
+/*place*/
+.place-list{
+    margin: 32px -8px;   
+}
+.place-item{
+float: left;
+width: 33.3333333%;
+padding: 0 8px;
+
+}
+.place-img{
+ width: 100%;
+ display: block;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-body{
+background: #fff;
+padding-left: 20px;
+
+}
+.place-helding
+{
+padding-top: 15px;
+}       
+.place-time{
+margin-top: 15px;
+color: gray;
+
+}
+.place-desc{
+margin-top: 10px;
+ margin:px;
+line-height: 1.6;
+
+}
+.place-buy-btn{
+text-decoration: none;
+background: #000;
+color: white;
+padding: 10px 10px;
+display: inline-block;
+margin-bottom: 20px;
+}
+.place-buy-btn:hover{
+background: gray;
+color: #000;
+}
+.row-send{
+    float: right;
+    color: white;
+    background: #000;
+    text-decoration: none;
+    padding: 5px 10px 10px 10px;
+}
+.row-send:hover{
+    background: gray;
+    color: #000;
+}
+.form-control-mess{
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    color: gray;
+    border: solid 1px #ddd;
+    margin-top: 10px;
+
+}
+
+.col-text{
+    flex: 1 0 0%;
+}
+/* map-consection */
+.map-contection img{
+    width: 100%;
+}
+.map-contection{
+    margin-top: 60px;
+}
+.moddal{
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background: rgba(0,0,0,0.4);
+    display:none;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.moddal.open{
+    display: flex;
+}
+
+.moddal-container {
+    background:#fff;
+    width: 900px;
+    min-height: 200px;
+    max-width: calc(100% - 32px);
+    position:relative;
+    animation: modalFadeIn ease 0.3s ;
+}
+.moddal-header{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+    background: #00bcd4;
+    height: 130px;
+    color: #fff;
+    font-size: 1.8rem;
+} 
+.moaddal-heading-icon{
+    margin-right: 16px;
+}
+.moddal-close{
+    position: absolute;
+    right: 0 ;
+    top: 0;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    opacity:0.8;
+}
+.moddal-close:hover{
+    opacity: 1;
+}
+.modal-body {
+    padding: 16px;
+    display:flex;
+    flex-direction:column;
+}
+.modal-label {
+    margin-bottom: 20px;
+}
+
+.modal-input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+#buy-tickets{
+    background:#00bcd4;
+    border: none;
+    color: #fff;
+    font-size:  15px;
+    text-transform: uppercase;
+    padding: 13px;
+    cursor: pointer;
+}
+#buy-tickets:hover {
+    opacity:0.9
+}
+.moddal-footer {
+    padding: 16px;
+    text-align: right;
+  
+}
+.moddal-footer a {
+    color: #2196F3;
+}
+@keyframes modalFadeIn {
+        from {
+            opacity: 0;
+            transform:translateY(-120px)
+        }
+        to {
+            opacity: 1;
+            transform:translateY(0)
+        }
+}

@@ -1,0 +1,79 @@
+/*PC*/
+@media (min-width:64em)
+{
+  
+}
+/* mobile - tablet */
+@media (max-width:63.9375em)
+{
+    .contanct{
+        margin-top: 30px;
+    }
+    #Tour .contact-btn a{
+        color: rgb(90, 90, 175);
+    }
+   #Tour .contact-btn a:hover{   
+        opacity: 2;
+    }
+}
+/* Mobile */
+@media(max-width:46.1875em) {
+    #header{
+        overflow: hidden;
+    }
+    
+    #header .Menu-btn{
+        display: block;
+    }
+    #header .Search-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #nav >li{
+        display: block;
+    }     
+    #nav li a{
+        padding: 1px 24px;   
+    } 
+    #nav .subnav{  
+        background-color: #333;
+        position: initial;
+    }
+    #nav .subnav a{
+        color: #fff;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .place-item{
+        width: 100%;
+        margin-bottom: 20px
+    }
+    .Tour-section{
+        height: 1980px
+    }
+    #Tour .col-text{
+        display: block;
+    }#Tour .col-half{
+        flex: none;
+    }
+    #Tour .form-control{
+       margin-top: 10px;
+    }
+    .btn-send{
+       width: 100%;
+       text-align: center;
+    margin-top: 20px;
+    }
+    .place-buy-btn{
+        width: 100%;
+        text-align: center;
+        margin-left: -10px;
+    }
+}
